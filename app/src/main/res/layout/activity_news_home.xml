@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/loght_blue"
     tools:ignore="SpeakableTextPresentCheck">
 
 
@@ -74,66 +73,93 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <ImageButton
-                android:id="@+id/imageButton11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/poster"
-                android:background="@null"
-                android:layout_gravity="center"
-                />
 
-
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                app:srcCompat="@drawable/news_banner" />
 
             <ImageButton
                 android:id="@+id/imageButton14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/poster"
+                app:srcCompat="@drawable/readmore"
                 android:background="@null"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
+                android:layout_marginStart="167dp"
+                android:layout_marginTop="-30dp"
                 />
 
-
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                app:srcCompat="@drawable/tsunami"
+                android:layout_marginTop="14dp"
+                />
 
             <ImageButton
                 android:id="@+id/imageButton17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/poster"
+                app:srcCompat="@drawable/readmore"
                 android:background="@null"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
+                android:layout_marginStart="167dp"
+                android:layout_marginTop="-30dp"
                 />
 
-
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                app:srcCompat="@drawable/news_banner"
+                android:layout_marginTop="14dp"
+                />
 
             <ImageButton
                 android:id="@+id/imageButton20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/poster"
+                app:srcCompat="@drawable/readmore"
                 android:background="@null"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
+                android:layout_marginStart="167dp"
+                android:layout_marginTop="-30dp"
                 />
 
-
-
-
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                app:srcCompat="@drawable/tsunami"
+                android:layout_marginTop="14dp"
+                />
 
             <ImageButton
                 android:id="@+id/imageButton23"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/poster"
                 android:background="@null"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/readmore"
+                android:layout_marginStart="167dp"
+                android:layout_marginTop="-30dp"
                 />
 
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                app:srcCompat="@drawable/news_banner"
+                android:layout_marginTop="14dp"/>
 
+            <ImageButton
+                android:id="@+id/imageButton42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/readmore"
+                android:background="@null"
+                android:layout_marginStart="167dp"
+                android:layout_marginTop="-30dp"
+                />
 
 
         </LinearLayout>
