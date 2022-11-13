@@ -27,7 +27,7 @@ public class Burger_Menu extends AppCompatActivity {
         Burger_Close.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentLoadNewActivity = new Intent(Burger_Menu.this, Weather.class);
+                Intent intentLoadNewActivity = new Intent(Burger_Menu.this, News_home.class);
                 startActivity(intentLoadNewActivity);
             }
         });

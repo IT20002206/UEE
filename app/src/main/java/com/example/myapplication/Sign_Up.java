@@ -11,6 +11,7 @@ public class Sign_Up extends AppCompatActivity {
 
     ImageButton registerBTN;
     ImageButton clickRegister;
+    ImageButton appRegister;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,16 @@ public class Sign_Up extends AppCompatActivity {
         clickRegister = (ImageButton) findViewById(R.id.i_have);
 
         clickRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentLoadNewActivity = new Intent(Sign_Up.this, Login.class);
+                startActivity(intentLoadNewActivity);
+            }
+        });
+
+        appRegister = (ImageButton) findViewById(R.id.imageButton4);
+
+        appRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intentLoadNewActivity = new Intent(Sign_Up.this, Login.class);
