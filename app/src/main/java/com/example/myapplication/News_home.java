@@ -13,6 +13,7 @@ public class News_home extends AppCompatActivity {
     ImageButton ImageRead;
     ImageButton AddNews;
     ImageButton NewsAdmin;
+    ImageButton Latest_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +55,17 @@ public class News_home extends AppCompatActivity {
         NewsAdmin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentLoadNewActivity = new Intent(News_home.this, Add_news.class);
+                Intent intentLoadNewActivity = new Intent(News_home.this, Admin_news.class);
+                startActivity(intentLoadNewActivity);
+            }
+        });
+
+        Latest_btn = (ImageButton) findViewById(R.id.imageButton9);
+
+        Latest_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentLoadNewActivity = new Intent(News_home.this, Latest_News.class);
                 startActivity(intentLoadNewActivity);
             }
         });
