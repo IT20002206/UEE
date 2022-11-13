@@ -47,7 +47,7 @@ public class Burger_Menu extends AppCompatActivity {
         Burger_Weather.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentLoadNewActivity = new Intent(Burger_Menu.this, Weather.class);
+                Intent intentLoadNewActivity = new Intent(Burger_Menu.this, Weather_loc.class);
                 startActivity(intentLoadNewActivity);
             }
         });
