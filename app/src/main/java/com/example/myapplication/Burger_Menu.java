@@ -77,7 +77,7 @@ public class Burger_Menu extends AppCompatActivity {
         Burger_Recycle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentLoadNewActivity = new Intent(Burger_Menu.this, Recycle_First.class);
+                Intent intentLoadNewActivity = new Intent(Burger_Menu.this, Recycle_noti.class);
                 startActivity(intentLoadNewActivity);
             }
         });
