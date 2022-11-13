@@ -10,6 +10,7 @@ import android.widget.ImageButton;
 public class Latest_News extends AppCompatActivity {
 
     ImageButton burger_btn;
+    ImageButton all_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,5 +26,16 @@ public class Latest_News extends AppCompatActivity {
                 startActivity(intentLoadNewActivity);
             }
         });
+
+        all_button = (ImageButton) findViewById(R.id.latest_all_btn);
+
+        all_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentLoadNewActivity = new Intent(Latest_News.this, News_home.class);
+                startActivity(intentLoadNewActivity);
+            }
+        });
     }
+}
 }

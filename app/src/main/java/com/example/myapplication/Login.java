@@ -34,7 +34,7 @@ public class Login extends AppCompatActivity {
         loginImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentLoadNewActivity = new Intent(Login.this, Weather.class);
+                Intent intentLoadNewActivity = new Intent(Login.this, News_home.class);
                 startActivity(intentLoadNewActivity);
             }
         });

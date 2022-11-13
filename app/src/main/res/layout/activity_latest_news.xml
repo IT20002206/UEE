@@ -52,7 +52,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton11"
+                android:id="@+id/latest_all_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -79,8 +79,11 @@
 
         <ImageView
             android:id="@+id/imageView19"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="359dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="-530dp"
+            android:layout_weight="1"
             app:srcCompat="@drawable/tsunami" />
 
     </LinearLayout>
