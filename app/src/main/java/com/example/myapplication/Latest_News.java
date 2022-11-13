@@ -38,4 +38,3 @@ public class Latest_News extends AppCompatActivity {
         });
     }
 }
-}
