@@ -10,6 +10,7 @@ import android.widget.ImageButton;
 public class Recycle_First extends AppCompatActivity {
 
     ImageButton Burger;
+    ImageButton recycle_Learn_More;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,16 @@ public class Recycle_First extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intentLoadNewActivity = new Intent(Recycle_First.this, Burger_Menu.class);
+                startActivity(intentLoadNewActivity);
+            }
+        });
+
+        recycle_Learn_More = (ImageButton) findViewById(R.id.imageButton38);
+
+        recycle_Learn_More.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentLoadNewActivity = new Intent(Recycle_First.this, Recycle_noti.class);
                 startActivity(intentLoadNewActivity);
             }
         });

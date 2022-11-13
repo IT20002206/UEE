@@ -7,21 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class OTP_new_password extends AppCompatActivity {
+public class Recycle_Group_Message extends AppCompatActivity {
 
-    ImageButton Confirm_btn;
+    ImageButton group_message;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_otp_new_password);
+        setContentView(R.layout.activity_recycle_group_message);
 
-        Confirm_btn = (ImageButton) findViewById(R.id.imageButton6);
+        group_message = (ImageButton) findViewById(R.id.group_message);
 
-        Confirm_btn.setOnClickListener(new View.OnClickListener() {
+        group_message.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentLoadNewActivity = new Intent(OTP_new_password.this, Login.class);
+                Intent intentLoadNewActivity = new Intent(Recycle_Group_Message.this, Recycle_Single_Message.class);
                 startActivity(intentLoadNewActivity);
             }
         });
