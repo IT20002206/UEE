@@ -45,7 +45,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.369"
+        app:layout_constraintVertical_bias="0.347"
         app:srcCompat="@drawable/weather" />
 
     <ImageButton
@@ -58,7 +58,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
+        app:layout_constraintVertical_bias="0.45"
         app:srcCompat="@drawable/vehicle" />
 
     <ImageButton
@@ -71,7 +71,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.633"
+        app:layout_constraintVertical_bias="0.554"
         app:srcCompat="@drawable/news" />
 
     <ImageButton
@@ -87,5 +87,18 @@
         app:srcCompat="@drawable/logout"
         android:background="@null"
         />
+
+    <ImageButton
+        android:id="@+id/imageButton49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.655"
+        app:srcCompat="@drawable/recycle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
