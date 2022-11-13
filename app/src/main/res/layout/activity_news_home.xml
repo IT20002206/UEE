@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:ignore="SpeakableTextPresentCheck">
+    tools:ignore="SpeakableTextPresentCheck"
+    android:background="@color/loght_blue"
+    >
 
 
     <LinearLayout
@@ -159,6 +161,26 @@
                 android:background="@null"
                 android:layout_marginStart="167dp"
                 android:layout_marginTop="-30dp"
+                />
+
+            <ImageButton
+                android:id="@+id/imageButton46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/add_news"
+                android:background="@null"
+                android:layout_marginTop="30dp"
+
+                />
+
+            <ImageButton
+                android:id="@+id/imageButton48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/admin"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:layout_marginTop="20dp"
                 />
 
 
