@@ -11,6 +11,7 @@ public class Add_vehicle extends AppCompatActivity {
 
     ImageButton Add_Vehicle;
     ImageButton Back_btn;
+    ImageButton burger_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,16 @@ public class Add_vehicle extends AppCompatActivity {
         Back_btn = (ImageButton) findViewById(R.id.imageButton36);
 
         Back_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentLoadNewActivity = new Intent(Add_vehicle.this, Vehicle.class);
+                startActivity(intentLoadNewActivity);
+            }
+        });
+
+        burger_btn = (ImageButton) findViewById(R.id.imageButton37);
+
+        burger_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intentLoadNewActivity = new Intent(Add_vehicle.this, Vehicle.class);

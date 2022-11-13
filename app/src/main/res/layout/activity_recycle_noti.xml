@@ -139,4 +139,18 @@
         app:srcCompat="@drawable/next"
         android:background="@null"
         />
+
+    <ImageButton
+        android:id="@+id/recycle_burger"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="@+id/imageView23"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059"
+        app:srcCompat="@drawable/burger_menu"
+        android:background="@null"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
