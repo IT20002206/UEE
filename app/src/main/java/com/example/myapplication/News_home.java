@@ -10,6 +10,9 @@ import android.widget.ImageButton;
 public class News_home extends AppCompatActivity {
 
     ImageButton ImageBurger;
+    ImageButton ImageRead;
+    ImageButton AddNews;
+    ImageButton NewsAdmin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +28,38 @@ public class News_home extends AppCompatActivity {
                 startActivity(intentLoadNewActivity);
             }
         });
+
+        ImageRead = (ImageButton) findViewById(R.id.imageButton14);
+
+        ImageRead.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentLoadNewActivity = new Intent(News_home.this, News_Single.class);
+                startActivity(intentLoadNewActivity);
+            }
+        });
+
+        AddNews = (ImageButton) findViewById(R.id.imageButton46);
+
+        AddNews.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentLoadNewActivity = new Intent(News_home.this, Add_news.class);
+                startActivity(intentLoadNewActivity);
+            }
+        });
+
+        NewsAdmin = (ImageButton) findViewById(R.id.imageButton48);
+
+        NewsAdmin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentLoadNewActivity = new Intent(News_home.this, Add_news.class);
+                startActivity(intentLoadNewActivity);
+            }
+        });
+
+
 
     }
 }
